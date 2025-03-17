@@ -1,0 +1,196 @@
+.body {
+  background-image: url("image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(235, 178, 109, 0.527);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 15px;
+}
+.main-body {
+  width: 1280px; 
+}
+
+/* Nagłówek */
+.naglowek {
+  text-align: center;
+  font-size: 3.3vw;
+  font-weight: 900;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 195px;
+  color: rgba(0, 0, 0, 0.945);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.menu-tresc-block {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+/* Menu */
+.menu {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 3px;
+  height: 440px;
+}
+button {
+  background-color: burlywood;
+  height: 40px;
+  width: 100%;
+  font-size: 0.9vw;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: brown;
+  height: 40px;
+  width: 100%;
+  font-size: 0.9vw;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  transition: 200ms;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/*Artykuł dla strony głównej*/
+
+.article-index {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: 900px;
+}
+.sekcja {
+  border-top: 2px dashed black;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.sekcja-wnetrze {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.sekcja-tytuł {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.lewy {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-right: 7px;
+}
+.centrum {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-right: 10px;
+}
+.prawy {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+.lewy-nazwa {
+  font-size: 0.8vw;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.lewy-foto {
+  width: 97%;
+  border-radius: 5px;
+}
+
+/* Artykuł dla przepisu */
+.article-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 300px;
+  margin-left: 10px;
+}
+.sklad{
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-right: 4px;
+  padding: 15px;
+}
+.przygotowanie {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-right: 4px;
+  padding: 15px;
+}
+.zdjecia {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-right: 4px;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: 900px;
+}
+.foto-przepis {
+  width: 95%;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Stopka */
+.stopka {
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+
+
+
